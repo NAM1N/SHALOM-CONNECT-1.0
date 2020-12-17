@@ -29,11 +29,11 @@
 						<div class="widget">
 							<h6>Liens Rapides</h6>
 							<ul class="nav flex-column primary-hover">
-								<li class="nav-item"><a class="nav-link" href="{{url('about')}}">About</a></li>
+								<li class="nav-item"><a class="nav-link" href="{{url('about')}}">A-propos</a></li>
 								<li class="nav-item"><a class="nav-link" href="{{url('contact')}}">Contact</a></li>
-								<li class="nav-item"><a class="nav-link" href="{{url('service')}}">Service</a></li>
+								<li class="nav-item"><a class="nav-link" href="{{url('service')}}">Services</a></li>
 								<li class="nav-item"><a class="nav-link" href="{{url('nos_produits')}}">Nos produits</a></li>
-								<li class="nav-item"><a class="nav-link" href="{{url('/')}}">Home</a></li>
+								<li class="nav-item"><a class="nav-link" href="{{url('/')}}">Acceuil</a></li>
 							</ul>
 						</div>
 					</div>
@@ -58,13 +58,13 @@
 			<div class="container">
 				<div class="d-md-flex justify-content-between align-items-center py-3 text-center text-md-left">
 					<!-- copyright text -->
-					<div class="copyright-text">©2020 All Rights Reserved by <a href="#!"> AGEM.</a></div>
+					<div class="copyright-text">©2020 All Rights Reserved by <a href="#!"> Shalom Connect CI.</a></div>
 					<!-- copyright links-->
 					<div class="copyright-links primary-hover mt-3 mt-md-0">
 						<ul class="list-inline">
-							<li class="list-inline-item pl-2"><a class="list-group-item-action" href="{{url('/')}}">Home</a></li>
-							<li class="list-inline-item pl-2"><a class="list-group-item-action" href="{{url('about')}}">About Us</a></li>
-							<li class="list-inline-item pl-2"><a class="list-group-item-action" href="{{url('service')}}">Service</a></li>
+							<li class="list-inline-item pl-2"><a class="list-group-item-action" href="{{url('/')}}">Acceuil</a></li>
+							<li class="list-inline-item pl-2"><a class="list-group-item-action" href="{{url('about')}}">A-propos</a></li>
+							<li class="list-inline-item pl-2"><a class="list-group-item-action" href="{{url('service')}}">Services</a></li>
 							<li class="list-inline-item pl-2"><a class="list-group-item-action" href="{{url('nos_produits')}}">Nos produits</a></li>
 							<li class="list-inline-item pl-2"><a class="list-group-item-action" href="{{url('contact')}}">Contact</a></li>
 						</ul>

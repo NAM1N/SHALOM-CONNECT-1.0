@@ -10,7 +10,7 @@
 							<a class="navbar-link"><strong>Phone:</strong> (225) 22 54 71 60 / 54 62 60 93</a>
 							</li>
 							<li class="nav-item mr-3">
-							<a class="navbar-link"><strong>Email:</strong> admin@shalomconnect-ci.net</a>
+							<a class="navbar-link" href="mailto:admin@shalomconnect-ci.net"><strong>Email:</strong> admin@shalomconnect-ci.net</a>
 							</li>
 						</ul>
 					</div>
@@ -18,11 +18,7 @@
 					<!-- navbar top Right-->
 					<div class="d-flex align-items-center">
 						<!-- top link -->
-						<ul class="nav">
-              <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+			
 						<!-- top social -->
 						<ul class="social-icons">
 							<li class="social-icons-item social-facebook m-0">
@@ -59,11 +55,11 @@
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav ml-auto">
 						<!-- Menu item 1 Home-->
-						<a class="nav-link dropdown-item" href="{{url('/')}}" id="demosMenu" aria-haspopup="true" aria-expanded="false">Home</a>
+						<a class="nav-link dropdown-item" href="{{url('/')}}" id="demosMenu" aria-haspopup="true" aria-expanded="false">Acceuil</a>
 						<!-- Menu item 2 service-->
-						<a class="nav-link dropdown-item" href="{{url('service')}}" id="pagesMenu" aria-haspopup="true" aria-expanded="false">Service</a>
+						<a class="nav-link dropdown-item" href="{{url('service')}}" id="pagesMenu" aria-haspopup="true" aria-expanded="false">Services</a>
 						<!-- Menu item 3 about-->
-						<a class="nav-link dropdown-item" href="{{url('about')}}" id="pagesMenu" aria-haspopup="true" aria-expanded="false">About</a>
+						<a class="nav-link dropdown-item" href="{{url('about')}}" id="pagesMenu" aria-haspopup="true" aria-expanded="false">A-propos</a>
 						<!-- Menu item 4 Produit-->
 						<a class="nav-link dropdown-item active" href="{{url('nos_produits')}}" id="pagesMenu" aria-haspopup="true" aria-expanded="false">Nos Produits</a>
 						<!-- Menu item 5 Contact-->
